@@ -34,3 +34,12 @@ class Rover:
             self.direction = 'W'
         elif self.direction == 'W':
             self.direction = 'N'
+# Composite Pattern: Create a Grid class to represent the grid and obstacles
+class Grid:
+    def __init__(self, size_x, size_y, obstacles):
+        self.size_x = size_x
+        self.size_y = size_y
+        self.obstacles = obstacles
+
+    def is_obstacle_at(self, x, y):
+        return (x, y) in self.obstacles
