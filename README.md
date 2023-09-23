@@ -1,1 +1,3 @@
 # Mars-Rover-Simulation
+To create a simulation for a Mars Rover that meets the given requirements, we can follow the principles of Object-Oriented Programming, design patterns, and encapsulation. We'll use the Command Pattern for the rover's commands and the Composite Pattern to represent the grid and obstacles. 
+This code defines a Rover class that can move, turn left, and turn right. It uses the Command Pattern to encapsulate these commands, and the Composite Pattern to represent the grid and obstacles. Obstacle detection is implemented before each move command. Finally, it prints the final position and a status report as requested.
